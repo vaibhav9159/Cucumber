@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60454" started-at="2022-10-31T19:21:19 IST" finished-at="2022-10-31T19:22:19 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParalleRun@7181ae3f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="60454" started-at="2022-10-31T19:21:19 IST" finished-at="2022-10-31T19:22:19 IST">
+      <class name="Parallel.ParalleRun">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Parallel.ParalleRun@7181ae3f]" name="setUpClass" is-config="true" duration-ms="637" started-at="2022-10-31T19:21:19 IST" finished-at="2022-10-31T19:21:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParalleRun@7181ae3f]" name="runScenario" duration-ms="42123" started-at="2022-10-31T19:21:20 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-31T19:22:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verfiy login page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test user login access]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParalleRun@7181ae3f]" name="runScenario" duration-ms="53311" started-at="2022-10-31T19:21:20 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-31T19:22:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify my accounts section"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Accounts page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParalleRun@7181ae3f]" name="runScenario" duration-ms="53007" started-at="2022-10-31T19:21:20 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-31T19:22:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify accounts page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Accounts page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParalleRun@7181ae3f]" name="runScenario" duration-ms="42560" started-at="2022-10-31T19:21:20 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-31T19:22:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login page authentication section"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test user login access]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParalleRun@7181ae3f]" name="runScenario" duration-ms="53051" started-at="2022-10-31T19:21:20 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-31T19:22:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test user login access]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Parallel.ParalleRun@7181ae3f]" name="runScenario" duration-ms="40692" started-at="2022-10-31T19:21:20 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-31T19:22:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login page logo image"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test user login access]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Parallel.ParalleRun@7181ae3f]" name="tearDownClass" is-config="true" duration-ms="6460" started-at="2022-10-31T19:22:13 IST" finished-at="2022-10-31T19:22:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Parallel.ParalleRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
